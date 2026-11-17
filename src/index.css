@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Shantell Sans', 'Comic Neue', cursive, sans-serif;
+  }
+}
+
+/* Custom scrollbar for horizontal chips */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #171b26;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #313540;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #424754;
+}
